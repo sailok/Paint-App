@@ -1,0 +1,17 @@
+#Title {
+    position: relative; 
+    top: 15px;
+}
+
+#Canvas {
+    border-style: solid;
+    border-color: #000000;
+    position: relative; 
+    top: 20px;
+}
+
+#Clear {
+    position: relative; 
+    top: 30px;
+    right: 140px; 
+}

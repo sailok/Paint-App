@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Paint App</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/scripts.js"></script>
+</head>
+
+<body style="background-color: darksalmon;">
+    <div class="d-flex justify-content-center" id="Title">
+        <h3>Simple Paint App</h3>
+    </div>
+    <div class="d-flex justify-content-center"> 
+        <canvas class = "rounded-lg" id="Canvas" width="1080" height="540" onclick = "draw(event)"></canvas>
+    </div>
+    <div class="d-flex justify-content-end" id = "Clear" onclick = "init()">  
+        <button class="btn btn-secondary">clear</button>
+    </div>
+    <div class="d-flex justify-content-center" id = "foobar">
+        <h6 style = "z-index: 10; left: 100 px;">Made By <a href="https://www.github.com" target="_blank">Sailok Chinta</a></h6>   
+    </div>
+    <img id="guide" src="guide.png" style="display: none;">
+</body>
+</html>
